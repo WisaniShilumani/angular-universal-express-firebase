@@ -1,5 +1,5 @@
 {
-  "name": "angular-universal-express-firebase",
+  "name": "angular7-universal-express-firebase",
   "version": "0.0.4",
   "description": "Run Angular Universal on Cloud Functions and Firebase Hosting",
   "main": "index.js",
@@ -11,31 +11,31 @@
     "angular",
     "ssr"
   ],
-  "author": "David East",
+  "author": "Wisani Shilumani",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^2.4.2"
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "express": "^4.15.3",
     "@types/express": "^4.0.36",
-    "angular-universal-express": "^0.0.3"
+    "angular7-universal-express": "^0.0.3"
   },
   "peerDependencies": {
-    "@angular/animations": "^4.3.3",
-    "@angular/common": "^4.3.3",
-    "@angular/compiler": "^4.3.3",
-    "@angular/core": "^4.3.3",
-    "@angular/forms": "^4.3.3",
-    "@angular/http": "^4.3.3",
-    "@angular/platform-browser": "^4.3.3",
-    "@angular/platform-browser-dynamic": "^4.3.3",
-    "@angular/platform-server": "^4.3.3",
-    "@angular/router": "^4.3.3",
+    "@angular/animations": "^7.0.3",
+    "@angular/common": "^7.0.3",
+    "@angular/compiler": "^7.0.3",
+    "@angular/core": "^7.0.3",
+    "@angular/forms": "^7.0.3",
+    "@angular/http": "^7.0.3",
+    "@angular/platform-browser": "^7.0.3",
+    "@angular/platform-browser-dynamic": "^7.0.3",
+    "@angular/platform-server": "^7.1.2",
+    "@angular/router": "^7.0.3",
     "core-js": "^2.4.1",
-    "firebase-admin": "^5.1.0",
-    "firebase-functions": "^0.6.1",
-    "rxjs": "^5.4.2",
+    "firebase-admin": "^6.3.0",
+    "firebase-functions": "^2.1.0",
+    "rxjs": "^6.3.3",
     "zone.js": "^0.8.14"
   }
 }

@@ -1,9 +1,8 @@
 import { Provider } from '@angular/core';
 import * as functions from 'firebase-functions';
+import { HttpsFunction } from 'firebase-functions'
 import * as express from 'express';
-import { angularUniversal, ServerConfiguration } from 'angular-universal-express';
-
-export type Trigger = functions.TriggerAnnotated & ((req: Express.Request, resp: Express.Response) => void);
+import { angularUniversal, ServerConfiguration } from 'angular7-universal-express';
 
 export interface FirebaseConfiguration extends ServerConfiguration {
   staticDirectory?: string;
@@ -18,7 +17,7 @@ export interface FirebaseConfiguration extends ServerConfiguration {
  * Angular Universal responses.
  * @param config 
  */
-export let trigger = (config: FirebaseConfiguration): Trigger => {
+export let trigger = (config: FirebaseConfiguration): HttpsFunction => {
   return functions.https.onRequest(createExpressApp(config));
 };
 

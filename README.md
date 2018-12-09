@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npm i angular-universal-express-firebase
+npm i angular7-universal-express-firebase
 ```
 NB: Run this command _afer_ initialzing functions and from within the `functions` folder
 

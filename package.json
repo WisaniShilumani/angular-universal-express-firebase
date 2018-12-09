@@ -1,12 +1,12 @@
 {
   "name": "angular7-universal-express-firebase",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Run Angular Universal on Cloud Functions and Firebase Hosting",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "tsc -p src/tsconfig.json && cp src/package.json dist/packages-dist && cp README.md dist/packages-dist",
-    "publish": "npm publish dist/packages-dist"
+    "publish": "npm run build && npm publish dist/packages-dist"
   },
   "keywords": [
     "firebase",
@@ -15,7 +15,7 @@
   "author": "Wisani Shilumani",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.2.2"
+    "typescript": "^3.1.6"
   },
   "dependencies": {
     "@angular/animations": "^7.0.3",
@@ -29,13 +29,14 @@
     "@angular/platform-server": "^7.1.2",
     "@angular/router": "^7.0.3",
     "@types/express": "^4.0.36",
-    "angular7-universal-express": "^0.0.3",
+    "angular7-universal-express": "^0.0.5",
     "core-js": "^2.5.7",
     "express": "^4.16.3",
     "firebase-admin": "^6.3.0",
     "firebase-functions": "2.1.0",
     "latest": "^0.2.0",
     "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
     "zone.js": "^0.8.26"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "angular7-universal-express-firebase",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Run Angular Universal on Cloud Functions and Firebase Hosting",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "Wisani Shilumani",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.2.2"
+    "typescript": "^3.1.6"
   },
   "dependencies": {
     "express": "^4.15.3",
@@ -36,6 +36,7 @@
     "firebase-admin": "^6.3.0",
     "firebase-functions": "^2.1.0",
     "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
     "zone.js": "^0.8.14"
   }
 }
